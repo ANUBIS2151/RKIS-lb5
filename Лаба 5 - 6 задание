@@ -1,0 +1,6 @@
+def array_of_numbers(num):
+    return [-x for x in num]
+array = [8, -4, 0, 19, -10]
+reversed_array = array_of_numbers(array)
+print("Текущий массив:", array)
+print("Реверсированный массив:", reversed_array)
