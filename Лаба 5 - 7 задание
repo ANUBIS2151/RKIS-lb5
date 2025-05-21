@@ -1,0 +1,9 @@
+def circle(x,y,r):
+    return x**2 + y**2 <= r**2
+x = float(input("Введите координату точки x: "))
+y = float(input("Введите координату точки y: "))
+r = float(input("Введите радиус круга: "))
+if circle(x,y,r):
+    print("Точка принадлежит кругу")
+else:
+    print("Точка не принадлежит кругу")
