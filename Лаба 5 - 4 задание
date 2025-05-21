@@ -1,0 +1,9 @@
+def string(a):
+    if a.startswith("abc"):
+        return a.replace("abc", "www", 1)
+    else:
+        return a + "zzz"
+
+input_string = "abc Good Morning"
+string = string(input_string)
+print(string)
